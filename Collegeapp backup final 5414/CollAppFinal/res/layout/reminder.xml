@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" 
+    android:background="#FFF601">
+
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+     android:background="#FFF601">
+
+    <TextView
+        android:id="@+id/textViewforappmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Message"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        
+        android:layout_below="@+id/textViewforappmenu" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/ddmmyyyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editMessage"
+        android:gravity="center"
+        android:text="DD/MM/YYYY"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ddmmyyyy"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Date"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/hhmm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bDate"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="HH:MM"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hhmm"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Time"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Create Reminder"
+        android:textSize="30dp" />
+    
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/bCreate"
+         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="View Reminders"
+        android:textSize="30dp" />
+
+    
+</RelativeLayout>
+</ScrollView>

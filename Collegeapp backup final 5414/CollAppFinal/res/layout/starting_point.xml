@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    android:background="@drawable/qn_mark" >
+
+    <TextView
+        android:id="@+id/periodLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/periods" 
+        />
+
+    <EditText
+        android:id="@+id/noPeriodInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/periodHint"  >
+
+        
+    </EditText>
+
+        <TextView
+        android:id="@+id/dayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/days" />
+
+        <EditText
+        android:id="@+id/noDayInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dayHint" />
+
+        
+    <TextView
+        android:id="@+id/noSubLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noSubLabel" />
+
+    <EditText
+        android:id="@+id/noSubInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/noSubHint"  />
+    
+    
+    <TextView
+        android:id="@+id/subListLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subList"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/subListInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/subListHint"  />
+    
+    
+    <TextView
+        android:id="@+id/maxClassIPLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maxClassIP" />
+    
+    <EditText
+        android:id="@+id/maxClassIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/maxClassIPHint"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required Attendance Percentage?" />
+
+    <EditText
+        android:id="@+id/ipAttPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ipfratt" />
+    
+        <Button
+        android:id="@+id/nextBut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
+    
+
+</LinearLayout>

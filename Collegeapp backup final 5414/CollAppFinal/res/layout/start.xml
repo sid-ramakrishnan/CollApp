@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ImageButton
+        android:id="@+id/casher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/cash" />
+
+<TextView
+    android:id="@+id/textViewforappmenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="230dp"
+    android:text="Expense Manager" />
+
+<TextView
+    android:id="@+id/textExpenseManager"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="180dp"
+    android:layout_marginTop="230dp"
+    android:text="Notes" />
+
+<ImageButton
+    android:id="@+id/noter"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="100dp"
+    android:background="@drawable/notescreen" />
+
+</RelativeLayout>

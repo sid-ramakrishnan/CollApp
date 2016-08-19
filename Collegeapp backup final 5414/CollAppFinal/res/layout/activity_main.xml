@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BunkManager" >
+
+    <TextView
+        android:id="@+id/textviewforsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:text="Subject"         />
+
+    <TextView
+        android:id="@+id/textviewfornoofclassesconducted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00CC00"
+        android:paddingTop="20dp"
+        android:text="Number of classes conducted" />
+
+    <TextView
+        android:id="@+id/textviewfornoofclassesattended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00CC00"
+        android:text="Number of classes attended" />
+
+    <TextView
+        android:id="@+id/textviewfornoofclassesbunked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="Number of classes bunked" />
+
+    <TextView
+        android:id="@+id/textviewforattendedpercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="Attendance percentage is " />
+
+    <Button
+        android:id="@+id/bAttended"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Attended :( "
+        android:textSize="20dp" >
+    </Button>
+
+    <Button
+        android:id="@+id/bBunked"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text="Bunked! :D"
+        android:textSize="20dp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textviewfortallyattended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:text="Attended" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollViewattended"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:measureAllChildren="false"
+        android:scrollbars="horizontal|none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutattended"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textviewfortallybunked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:text="Bunked" />
+
+<HorizontalScrollView
+    android:id="@+id/scrollViewbunked"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:measureAllChildren="false"
+    android:scrollbars="horizontal|none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutbunked"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/bundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Undo last action! " />
+
+    <Button
+        android:id="@+id/buttontoreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="app_name">College App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="to">To</string>
+	<string name="subject">Sub</string>
+	<string name="message">Msg</string>
+	<string name="send">Send</string>
+	<string name="periods">Classes Per Day?</string>
+	<string name="days">Working Days per week?</string>
+	<string name="next">Next</string>
+	<string name="confirm">Confirm</string>
+	<string name="blank">"        "</string>
+	<string name="blank2">"     "</string>
+	<string name="ipfratt">Input a number, Ex 75</string>
+	<string name="saveBut">Save</string>
+	<string name="mon">Mon</string>
+	<string name="tue">Tue</string>
+	<string name="wed">Wed</string>
+	<string name="thu">Thu</string>
+	<string name="fri">Fri</string>
+	<string name="sat">Sat</string>
+	<string name="noSubLabel">No. of Courses?</string>
+	<string name="maxClassIP">Max no. of classes in a course?</string>
+	<string name="maxClassIPHint">Max 60</string>
+	<string name="periodHint">Max 8</string>
+	<string name="dayHint">5 or 6</string>
+	<string name="noSubHint">Input a number</string>
+	<string name="subList">Input Course Titles,Separated by a space</string>
+	<string name="subListHint">Input Here</string>
+	<string name="editBut">Edit</string>
+	 <color name="white">#FFFFFF</color>
+</resources>
+
